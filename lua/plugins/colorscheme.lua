@@ -1,6 +1,6 @@
 -- customise the colorscheme
 return {
-  -- add gruvbox
+  -- add everforest
   {
     "sainnhe/everforest",
     lazy = false,
