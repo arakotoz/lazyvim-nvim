@@ -3,3 +3,5 @@
 -- Add any additional options here
 
 vim.opt.background = "dark"
+vim.opt.guifont = "SauceCodePro_Nerd_Font_Propo:h12"
+vim.opt.linespace = 0
