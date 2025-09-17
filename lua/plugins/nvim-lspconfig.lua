@@ -43,6 +43,7 @@ return {
                   "--synctex",
                   "--keep-logs",
                   "--keep-intermediates",
+                  "-Z search-path='/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex'",
                 },
                 forwardSearchAfter = true,
                 onSave = true,
