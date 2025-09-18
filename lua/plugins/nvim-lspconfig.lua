@@ -37,13 +37,12 @@ return {
               build = {
                 executable = "tectonic",
                 args = {
-                  "-X",
-                  "compile",
-                  "%f",
+                  "-Z",
+                  "search-path=/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex",
                   "--synctex",
-                  "--keep-logs",
                   "--keep-intermediates",
-                  "-Z search-path='/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex'",
+                  "--keep-logs",
+                  "%f",
                 },
                 forwardSearchAfter = true,
                 onSave = true,
