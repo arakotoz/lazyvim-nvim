@@ -21,6 +21,7 @@ return {
         "latexindent",
         "tectonic",
         "tex-fmt",
+        "shfmt",
       })
     end,
   },
