@@ -60,6 +60,15 @@ return {
             },
           },
         },
+        tinymist = {
+          settings = {
+            tinymist = {
+              formatterMode = "typstyle",
+              exportPdf = "onType",
+              semanticTokens = "disable",
+            },
+          },
+        },
         yamlls = {}, -- YAML
         vtsls = {}, -- typescript extension bundled with VS Code
       },

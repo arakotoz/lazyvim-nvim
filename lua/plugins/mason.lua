@@ -22,6 +22,7 @@ return {
         "tectonic",
         "tex-fmt",
         "shfmt",
+        "tinymist",
       })
     end,
   },
